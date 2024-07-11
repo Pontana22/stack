@@ -8,14 +8,22 @@ stack is intended for use when playing Minecraft, but could really be used for a
 ### Installation
 
 #### Windows
-- Head to the [releases page](https://github.com/Pontana22/stack/releases) and download the latest executable
-- Run the executable and follow the instructions
+- Head to the [releases page](https://github.com/Pontana22/stack/releases) and download the latest installer
+- Run the installer and follow the instructions
 
 #### Other OS / own installation
 Just download stack.py and run it however you like
 
 ### Usage
-Simply run the program and enter anything into the terminal. If a reasonable number (any integer greater than 64) is entered, the program will print the corresponding number of stacks and items. If anything else is entered (including nothing), the program will print one of 50 different insults, usually targeting your intellect. 
+Simply run the program and enter anything into the terminal.
+
+#### Responses
+The program will respond in a couple differnt ways depending on what is entered:
+
+- If a reasonable number (any integer greater than 64) is entered, the corresponding number of stacks and items will be printed
+- If "help" (case insensitive) is entered, a short explanation of the program's basic function is printed
+- If "stop", "exit", "quit" or "fuck off" (all case insensitive) is entered, the program will terminate
+- If anything else is entered (including nothing), one of 50 different insults will be printed, usually targeting your intellect
 
 ## Idk I thought it was interesting
 The program will randomly cycle through all 50 insults before starting over, which means that the odds of the same insult being picked two times in a row is 0.04%
