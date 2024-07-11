@@ -79,9 +79,8 @@ def insult():
 
 	return(reply)
 
-while True:
+def main():
 	reasonable = False
-	items = ""
 
 	while not reasonable:
 		userInput = input("\n")
@@ -107,3 +106,7 @@ while True:
 		i = "item"
 
 	print(output[0], s, "and", output[1], i)
+	
+if __name__ == "__main__":
+	while True:
+		main()

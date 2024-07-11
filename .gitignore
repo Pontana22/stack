@@ -1,0 +1,4 @@
+build/
+dist/
+stack.spec
+stackinstaller.exe
